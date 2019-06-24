@@ -15,6 +15,7 @@ export interface Status {
   extended_entities?: ExtendedEntities | null;
   favorite_count: number;
   favorited: boolean;
+  text: string;
   full_text: string;
   geo?: Coordinates | null;
   id_str: string;
