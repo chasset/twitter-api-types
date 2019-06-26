@@ -16,7 +16,7 @@ export interface Status {
   favorite_count: number;
   favorited: boolean;
   text: string;
-  full_text: string;
+  full_text?: string;
   geo?: Coordinates | null;
   id_str: string;
   id: number;
@@ -34,6 +34,8 @@ export interface Status {
   quoted_status_permalink?: QuotedStatusPermalink | null;
   quoted_status?: Status | null;
   retweet_count: number;
+  reply_count: number;
+  quote_count: number;
   retweeted_status?: Status | null;
   retweeted: boolean;
   scopes?: Scope | null;
