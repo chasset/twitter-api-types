@@ -37,6 +37,9 @@ export interface Status {
   reply_count: number;
   quote_count: number;
   retweeted_status?: Status | null;
+  extended_tweet?: {
+    full_text: string;
+  };
   retweeted: boolean;
   scopes?: Scope | null;
   source: string;
