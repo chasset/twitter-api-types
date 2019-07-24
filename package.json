@@ -1,6 +1,6 @@
 {
   "name": "twitter-api-types",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "TypeScript definitions for Twitter API objects",
   "main": "index.js",
   "repository": {
