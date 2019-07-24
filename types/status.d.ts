@@ -34,8 +34,8 @@ export interface Status {
   quoted_status_permalink?: QuotedStatusPermalink | null;
   quoted_status?: Status | null;
   retweet_count: number;
-  reply_count: number;
-  quote_count: number;
+  reply_count?: number;
+  quote_count?: number;
   retweeted_status?: Status | null;
   extended_tweet?: {
     full_text: string;
